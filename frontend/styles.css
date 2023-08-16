@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.chat-box {
+    height: 440px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-container input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.input-container button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.message{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    margin: 10px;
+    max-width: 80%;
+}
+
+.sent{
+    background-color: #158ffe;
+    color: #fff;
+    float: right;
+    margin-right: 32px;
+}
+
+.received{
+    background-color: #e6e5eb;
+    float: left;
+    margin-left: 5px;
+}
+
+.basic{
+    background-color: #e6e5eb;
+    float: left;
+    margin-left: 5px;
+    display: block;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-container img{
+    width: 50%;
+    min-width: 300px;
+}
+
+#loader{
+    font-size: 25px;
+    text-align: center;
+}
+
+.kakao-ad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 200px;
+}
